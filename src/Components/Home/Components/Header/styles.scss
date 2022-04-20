@@ -1,0 +1,11 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .image {
+    margin-left: 10px;
+  }
+  .buttons {
+    margin-right: 10px;
+  }
+}
