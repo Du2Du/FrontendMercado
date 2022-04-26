@@ -5,10 +5,8 @@ import "./styles.scss";
 export const Section: React.FC = () => {
   return (
     <section>
-      <Box className="bg-slate-700 w-80 card-section rounded-xl border-gray-600	">
-        <p className="text-gray-800 text-white">
-          Come now and buy/sell in Zé's market
-        </p>
+      <Box className="bg-white card-section rounded-xl">
+        <p className="text-black">Come now and buy/sell in Zé's market</p>
       </Box>
     </section>
   );

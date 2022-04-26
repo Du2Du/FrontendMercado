@@ -1,5 +1,4 @@
 section {
-  background-image: url("./Images/market.jpg");
   background-position: center;
   background-repeat: no-repeat;
   height: 90.8vh;
@@ -9,17 +8,23 @@ section {
 
   .card-section {
     height: min-content;
-    padding: 10px;
+    cursor: crosshair;
+    padding: 20px;
     display: flex;
     align-items: center;
+    width: 80%;
 
     p {
-      font-size: 30px;
+      font-size: 40px;
     }
   }
 
   @media (min-width: 928px) {
+    .card-section:hover {
+      transform: scale(1.05);
+    }
     .card-section {
+      animation: transform 2s ease-in;
       height: 200px;
       width: 500px;
     }

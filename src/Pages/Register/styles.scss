@@ -1,0 +1,45 @@
+.box-register {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+
+    .title {
+      margin-bottom: 25px;
+      padding: 5px;
+      border-bottom: 1px solid #a4a4a4;
+    }
+
+    @media (min-width: 500px) {
+      .title {
+        padding: 5px 50px;
+      }
+    }
+    background-color: #fff;
+    width: 80%;
+    padding: 20px;
+    height: auto;
+
+    form {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      div {
+        margin: 10px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .hide-button {
+          margin: 0;
+        }
+      }
+    }
+  }
+}

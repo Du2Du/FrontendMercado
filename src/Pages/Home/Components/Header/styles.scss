@@ -1,11 +1,13 @@
 header {
   display: flex;
+  background-color: #fff;
+  border-bottom: 1px solid #84ffff;
   justify-content: space-between;
   align-items: center;
   .image {
-    margin-left: 10px;
+    margin-left: 15px;
   }
   .buttons {
-    margin-right: 10px;
+    margin-right: 15px;
   }
 }
